@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #636363;
+}
+
+.maze {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  background: #333333;
+}
